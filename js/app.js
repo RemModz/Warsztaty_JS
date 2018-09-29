@@ -42,4 +42,15 @@ var menuBox = document.querySelector('.navbar');
     window.addEventListener('scroll', function() {
       menuBox.style.borderBottom = '1px solid #7f7f7f';
     });
+    
+    /// zadanie 4
+    
+    var toTopButton = document.getElementById('toTop');
+    
+    toTopButton.addEventListener('click', function() {
+            window.scroll(0, 0);   
+    })
+ 
 });
+    
+// zadanie 5
